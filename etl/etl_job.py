@@ -1,24 +1,21 @@
 import pandas as pd
-import os
 
 def extract():
-    data = {
-        "id": [1, 2, 3],
-        "name": ["Ali", "Sara", "Omar"],
-        "sales": [100, 250, 175]
-    }
-    return pd.DataFrame(data)
+    print("Reading CSV file...")
+    df = pd.read_csv("data/customers.csv")
+    return df
 
 def transform(df):
-    df["sales_with_tax"] = df["sales"] * 1.14
+    print("Transforming data...")
+    # Example transformation
+    df["customer_name"] = df["customer_name"].str.upper()
     return df
 
 def load(df):
-    os.makedirs("data", exist_ok=True)
-    df.to_csv("data/output.csv", index=False)
+    print("Final Data:")
+    print(df)
 
 if __name__ == "__main__":
-    df = extract()
-    df = transform(df)
-    load(df)
-    print("ETL Finished Successfully")
+    data = extract()
+    data = transform(data)
+    load(data)
