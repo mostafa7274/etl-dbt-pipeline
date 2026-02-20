@@ -1,17 +1,24 @@
 import pandas as pd
-from sqlalchemy import create_engine
+import os
 
 def extract():
-    df = pd.read_csv("data/customers.csv")
+    data = {
+        "id": [1, 2, 3],
+        "name": ["Ali", "Sara", "Omar"],
+        "sales": [100, 250, 175]
+    }
+    return pd.DataFrame(data)
+
+def transform(df):
+    df["sales_with_tax"] = df["sales"] * 1.14
     return df
 
 def load(df):
-    engine = create_engine(
-    "postgresql://postgres:postgres@postgres:5432/postgres"
-)
-    df.to_sql("raw_customers", engine, if_exists="replace", index=False)
-    print("Data loaded into Postgres!")
+    os.makedirs("data", exist_ok=True)
+    df.to_csv("data/output.csv", index=False)
 
 if __name__ == "__main__":
-    data = extract()
-    load(data)
+    df = extract()
+    df = transform(df)
+    load(df)
+    print("ETL Finished Successfully")

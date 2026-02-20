@@ -1,0 +1,170 @@
+==================== 2026-02-20T14:12:23.991078Z | d4c5e91b-c093-4de9-bc9f-3e8caec6ab6f ====================
+14:12:23.991294 [info ]: Starting dbt LSP server
+14:12:23.991388 [info ]: Connecting to LSP client on port 8000
+14:12:23.994536 [info ]: Successfully connected to LSP client
+14:12:23.994557 [info ]: Creating LSP service...
+14:12:24.100878 [info ]: Creating LSP server...
+14:12:24.100899 [info ]: Starting LSP server...
+14:12:25.925640 [info ]: Started loading project
+14:12:25.926991 [info ]: Finished loading project [  0.00s]
+14:12:58.616490 [info ]: Started loading project
+14:12:58.627743 [info ]: Loading profiles.yml
+14:12:58.628293 [info ]: Finished loading project [  0.01s]
+14:12:58.914264 [info ]: Started loading project
+14:12:58.915122 [info ]: Loading profiles.yml
+14:12:58.915579 [info ]: Finished loading project [  0.00s]
+14:13:25.058301 [info ]: Started loading project
+14:13:25.058711 [info ]: Finished loading project [  0.00s]
+14:14:00.696245 [info ]: Started loading project
+14:14:00.697436 [info ]: Loading profiles.yml
+14:14:00.697938 [info ]: Finished loading project [  0.00s]
+14:14:42.104680 [info ]: Started loading project
+14:14:42.105337 [info ]: Loading profiles.yml
+14:14:42.227108 [debug]:    Started loading packages
+14:14:42.234022 [debug]:     Loaded [  0.01s] packages
+14:14:42.234957 [debug]:    Started loading internal packages
+14:14:42.256918 [debug]:     Loaded [  0.02s] internal packages
+14:14:42.258054 [info ]: Started parsing
+14:14:42.307449 [info ]: Finished loading project [  0.20s]
+14:14:42.323245 [info ]: Finished parsing [  0.07s]
+14:14:42.324436 [info ]: Cached model count updated: 0 models (estimate)
+14:14:42.324453 [info ]: Cached model count updated: 0 models (accurate)
+14:14:42.324513 [info ]: Started scheduling
+14:14:42.324667 [info ]: Finished scheduling [  0.00s]
+14:14:42.325118 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+14:14:42.325298 [info ]: Started scheduling
+14:14:42.325314 [info ]: Finished scheduling [  0.00s]
+14:14:42.326173 [info ]: Started deferring state
+14:14:42.326200 [info ]: Finished deferring state [  0.00s]
+14:14:42.330307 [info ]: Started downloading schemas
+14:14:42.330559 [debug]:    Started downloading relations
+14:14:42.330703 [debug]:   Finished [  0.00s] downloading relations
+14:14:42.330937 [info ]: Finished downloading schemas [  0.00s]
+14:14:42.707619 [info ]: Started building task graph
+14:14:42.707947 [info ]: Finished building task graph [  0.00s]
+14:14:42.791563 [info ]: Started loading project
+14:14:42.792428 [info ]: Loading profiles.yml
+14:14:42.824887 [debug]:    Started loading packages
+14:14:42.826869 [debug]:     Loaded [  0.00s] packages
+14:14:42.826899 [debug]:    Started loading internal packages
+14:14:42.849600 [debug]:     Loaded [  0.02s] internal packages
+14:14:42.849926 [info ]: Started parsing
+14:14:42.899157 [info ]: Finished loading project [  0.11s]
+14:14:42.907168 [info ]: Finished parsing [  0.06s]
+14:14:42.907394 [info ]: Cached model count updated: 0 models (estimate)
+14:14:42.907425 [info ]: Cached model count updated: 0 models (accurate)
+14:14:42.907468 [info ]: Started scheduling
+14:14:42.907533 [info ]: Finished scheduling [  0.00s]
+14:14:42.907567 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+14:14:42.907590 [info ]: Started scheduling
+14:14:42.907608 [info ]: Finished scheduling [  0.00s]
+14:14:42.910240 [info ]: Started deferring state
+14:14:42.910287 [info ]: Finished deferring state [  0.00s]
+14:14:42.910951 [info ]: Started downloading schemas
+14:14:42.910984 [debug]:    Started downloading relations
+14:14:42.911006 [debug]:   Finished [  0.00s] downloading relations
+14:14:42.911033 [info ]: Finished downloading schemas [  0.00s]
+14:14:43.171785 [info ]: Started building task graph
+14:14:43.171819 [info ]: Finished building task graph [  0.00s]
+14:14:43.178586 [info ]: Cached model count updated: 0 models (accurate)
+14:15:09.279914 [info ]: Loading profiles.yml
+14:15:41.640532 [info ]: Started loading project
+14:15:41.641100 [info ]: Loading profiles.yml
+14:15:41.647387 [info ]: Started parsing
+14:15:41.668825 [info ]: Finished loading project [  0.03s]
+14:15:41.671028 [info ]: Finished parsing [  0.02s]
+14:15:41.672153 [info ]: Cached model count updated: 0 models (estimate)
+14:15:41.672166 [info ]: Cached model count updated: 0 models (accurate)
+14:15:41.672178 [info ]: Started scheduling
+14:15:41.672402 [info ]: Finished scheduling [  0.00s]
+14:15:41.672638 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+14:15:41.672651 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+14:15:41.673020 [info ]: Started deferring state
+14:15:41.673033 [info ]: Finished deferring state [  0.00s]
+14:15:41.673282 [info ]: Started downloading schemas
+14:15:41.673297 [debug]:    Started downloading relations
+14:15:41.673310 [debug]:   Finished [  0.00s] downloading relations
+14:15:41.673318 [info ]: Finished downloading schemas [  0.00s]
+14:15:41.915317 [info ]: Started building task graph
+14:15:41.915352 [info ]: Finished building task graph [  0.00s]
+14:15:41.915929 [debug]: Incremental compilation - 0 nodes selected: {}
+14:15:41.921124 [info ]: Cached model count updated: 0 models (accurate)
+14:15:50.481796 [info ]: Started loading project
+14:15:50.485836 [info ]: Loading profiles.yml
+14:15:50.491849 [info ]: Started loading project
+14:15:50.492606 [info ]: Loading profiles.yml
+14:15:50.492651 [info ]: Finished loading project [  0.01s]
+14:15:50.549622 [debug]:    Started loading packages
+14:15:50.553809 [debug]:     Loaded [  0.00s] packages
+14:15:50.555523 [debug]:    Started loading internal packages
+14:15:50.596129 [debug]:     Loaded [  0.04s] internal packages
+14:15:50.596433 [info ]: Started parsing
+14:15:50.686498 [info ]: Finished loading project [  0.19s]
+14:15:50.700018 [debug]: Finished parsing models\my_model.sql [  0.01s]
+14:15:50.701023 [info ]: Finished parsing [  0.10s]
+14:15:50.701317 [info ]: Cached model count updated: 1 models (estimate)
+14:15:50.701342 [info ]: Cached model count updated: 1 models (accurate)
+14:15:50.701381 [info ]: Started scheduling
+14:15:50.701460 [info ]: Finished scheduling [  0.00s]
+14:15:50.701479 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+14:15:50.701490 [info ]: Started scheduling
+14:15:50.701502 [info ]: Finished scheduling [  0.00s]
+14:15:50.702912 [info ]: Started deferring state
+14:15:50.702957 [info ]: Finished deferring state [  0.00s]
+14:15:50.703730 [info ]: Started downloading schemas
+14:15:50.703768 [debug]:    Started downloading relations
+14:15:50.703808 [debug]:   Finished [  0.00s] downloading relations
+14:15:50.703837 [info ]: Finished downloading schemas [  0.00s]
+14:15:51.176310 [info ]: Started building task graph
+14:15:51.176387 [info ]: Finished building task graph [  0.00s]
+14:15:51.182367 [info ]: Cached model count updated: 1 models (accurate)
+14:15:51.303999 [info ]: Started loading project
+14:15:51.304588 [info ]: Loading profiles.yml
+14:15:51.309345 [info ]: Started parsing
+14:15:51.336641 [info ]: Finished loading project [  0.03s]
+14:15:51.339666 [debug]: Finished parsing models\my_model.sql [  0.00s]
+14:15:51.340108 [info ]: Finished parsing [  0.03s]
+14:15:51.341435 [info ]: Cached model count updated: 1 models (estimate)
+14:15:51.341456 [info ]: Cached model count updated: 1 models (accurate)
+14:15:51.341489 [info ]: Started scheduling
+14:15:51.341615 [info ]: Finished scheduling [  0.00s]
+14:15:51.342273 [info ]: Started deferring state
+14:15:51.342292 [info ]: Finished deferring state [  0.00s]
+14:15:51.342724 [info ]: Started downloading schemas
+14:15:51.342771 [debug]:    Started downloading relations
+14:15:51.342803 [debug]:   Finished [  0.00s] downloading relations
+14:15:51.342825 [info ]: Finished downloading schemas [  0.00s]
+14:15:51.621250 [info ]: Started building task graph
+14:15:51.621442 [info ]: Finished building task graph [  0.00s]
+14:15:51.627127 [info ]: Cached model count updated: 1 models (accurate)
+14:15:51.679045 [info ]: Started loading project
+14:15:51.679962 [info ]: Loading profiles.yml
+14:15:51.685364 [info ]: Started parsing
+14:15:51.714653 [info ]: Finished loading project [  0.04s]
+14:15:51.718537 [debug]: Finished parsing models\my_model.sql [  0.00s]
+14:15:51.719040 [info ]: Finished parsing [  0.03s]
+14:15:51.720345 [info ]: Cached model count updated: 1 models (estimate)
+14:15:51.720363 [info ]: Cached model count updated: 1 models (accurate)
+14:15:51.720386 [info ]: Started scheduling
+14:15:51.720429 [info ]: Finished scheduling [  0.00s]
+14:15:51.721006 [info ]: Started deferring state
+14:15:51.721022 [info ]: Finished deferring state [  0.00s]
+14:15:51.721354 [info ]: Started downloading schemas
+14:15:51.721375 [debug]:    Started downloading relations
+14:15:51.721395 [debug]:   Finished [  0.00s] downloading relations
+14:15:51.721410 [info ]: Finished downloading schemas [  0.00s]
+14:15:52.030202 [info ]: Started building task graph
+14:15:52.030262 [info ]: Finished building task graph [  0.00s]
+14:15:52.030535 [info ]: Started rendering (1 nodes)
+14:15:52.031294 [info ]: Started model main.my_model
+14:15:52.031562 [debug]: Started rendering model main.my_model
+14:15:52.035594 [debug]: Compiled SQL for node model.my_dbt_project.my_model at target\.lsp\compiled\models\my_model.sql
+14:15:52.036123 [debug]: Finished rendering [  0.00s] model main.my_model [success]
+14:15:52.036158 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+14:15:52.036191 [info ]: Started analyzing (1 nodes)
+14:15:52.036204 [debug]: Started analyzing model main.my_model
+14:15:52.075882 [info ]:  Succeeded [  0.04s] model main.my_model (table)
+14:15:52.075946 [debug]: Finished analyzing [  0.04s] model main.my_model [success]
+14:15:52.075957 [info ]: Finished analyzing [  0.04s] (1 nodes, 0 skipped, 0 errors)
+14:15:52.076084 [debug]: Incremental compilation - 1 nodes selected: {"model.my_dbt_project.my_model"}
+14:15:52.085225 [info ]: Cached model count updated: 1 models (accurate)

@@ -1,11 +1,6 @@
-etl_dbt_project:
+my_dbt_profile:
   target: dev
   outputs:
     dev:
-      type: postgres
-      host: postgres
-      user: postgres
-      password: postgres
-      port: 5432
-      dbname: postgres
-      schema: public
+      type: duckdb
+      path: my_database.duckdb
