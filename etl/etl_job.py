@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 def extract():
     data = {
@@ -13,6 +14,7 @@ def transform(df):
     return df
 
 def load(df):
+    os.makedirs("data", exist_ok=True)
     df.to_csv("data/output.csv", index=False)
 
 if __name__ == "__main__":
