@@ -1,21 +1,17 @@
 import pandas as pd
+from sqlalchemy import create_engine
 
 def extract():
-    print("Reading CSV file...")
     df = pd.read_csv("data/customers.csv")
     return df
 
-def transform(df):
-    print("Transforming data...")
-    # Example transformation
-    df["customer_name"] = df["customer_name"].str.upper()
-    return df
-
 def load(df):
-    print("Final Data:")
-    print(df)
+    engine = create_engine(
+    "postgresql://postgres:postgres@postgres:5432/postgres"
+)
+    df.to_sql("raw_customers", engine, if_exists="replace", index=False)
+    print("Data loaded into Postgres!")
 
 if __name__ == "__main__":
     data = extract()
-    data = transform(data)
     load(data)
